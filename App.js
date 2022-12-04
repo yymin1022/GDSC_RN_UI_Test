@@ -39,7 +39,7 @@ const App: () => Node = () => {
             color: 'white',
             fontSize: 20,
           }}>
-          "GDSC CAU RN UI Test"
+          GDSC CAU RN UI Test
         </Text>
       </View>
       <View
