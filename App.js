@@ -50,7 +50,7 @@ const App: () => Node = () => {
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
-          justifyContent: 'center',
+          paddingTop: '20%',
         }}>
         <Button title="Click Me!" onPress={() => alert('Button Test!')} />
         <Switch value={checked} onValueChange={() => setChecked(!checked)} />
